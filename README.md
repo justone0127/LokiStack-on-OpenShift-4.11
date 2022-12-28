@@ -172,4 +172,4 @@ $ aws s3 mb s3://hyou-loki.apps.ocp4.sandbox2710.opentlc.com
 
   - 웹 콘솔을 새로고침한 후 왼쪽 메인 메뉴에서 **Observe**를 클릭합니다. **Logs**에 대한 새로운 옵션을 사용 할 수 있습니다.
 
-    ![06_new_logs_options](https://github.com/justone0127/LokiStack-on-OpenShift-4.11/blob/main/images/06_new_logs_options.png)
+    ![06_new_logs_options](https://github.com/justone0127/LokiStack-on-OpenShift-4.11/blob/main/images/06_new_logs_options_new.png)
