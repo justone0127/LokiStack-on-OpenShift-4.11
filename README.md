@@ -68,11 +68,11 @@ $ aws s3 mb s3://hyou-loki.apps.ocp4.sandbox2710.opentlc.com
 
 - 웹 콘솔 접속 > **Operators** > **OperatorHub** 선택 > **LokiOperator** 검색 > **Install**
 
-  ![01_loki_operator](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\QY22Q4_MBO\loki\01_loki_operator.png)
+  ![01_loki_operator](https://github.com/justone0127/LokiStack-on-OpenShift-4.11/blob/main/images/01_loki_operator.png)
 
 - **Installation Mode** 아래에서 **All namespaces on the cluster(클러스터의 모든 네임스페이스-기본)** 선택 > **Installed Namespace** 아래에서 **openshift-operators-redhat** 선택 >  **Approval Strategy (업데이트 승인) **선택 > **Install** 버튼 선택
 
-  ![02_loki_operator_install](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\QY22Q4_MBO\loki\02_loki_operator_install.png)
+  ![02_loki_operator_install](https://github.com/justone0127/LokiStack-on-OpenShift-4.11/blob/main/images/02_loki_operator_install.png)
 
 ### 2.3  define the object storage location
 
@@ -160,16 +160,16 @@ $ aws s3 mb s3://hyou-loki.apps.ocp4.sandbox2710.opentlc.com
 
   - 콘솔 플러그인에서 **Disabled** 선택
 
-    ![03_logging_console_plugin_disable](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\QY22Q4_MBO\loki\03_logging_console_plugin_disable.png)
+    ![03_logging_console_plugin_disable](https://github.com/justone0127/LokiStack-on-OpenShift-4.11/blob/main/images/03_logging_console_plugin_disable.png)
 
   - **Enable** 선택 후 저장 > `openshift-conole` pod가 재시작 되고 새로 반영 됩니다.
 
-    ![04_logging_console_plugin_enable](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\QY22Q4_MBO\loki\04_logging_console_plugin_enable.png)
+    ![04_logging_console_plugin_enable](https://github.com/justone0127/LokiStack-on-OpenShift-4.11/blob/main/images/04_logging_console_plugin_enable.png)
 
   - `openshift-console` pod 재 시작 확인
 
-    ![05_openshift-console_pod](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\QY22Q4_MBO\loki\05_openshift-console_pod.png)
+    ![05_openshift-console_pod](https://github.com/justone0127/LokiStack-on-OpenShift-4.11/blob/main/images/05_openshift-console_pod.png)
 
   - 웹 콘솔을 새로고침한 후 왼쪽 메인 메뉴에서 **Observe**를 클릭합니다. **Logs**에 대한 새로운 옵션을 사용 할 수 있습니다.
 
-    ![06_new_logs_options](C:\Works\01_자료\01_OCP\05_OCP_Demo_hyou\QY22Q4_MBO\loki\06_new_logs_options.png)
+    ![06_new_logs_options](https://github.com/justone0127/LokiStack-on-OpenShift-4.11/blob/main/images/06_new_logs_options.png)
