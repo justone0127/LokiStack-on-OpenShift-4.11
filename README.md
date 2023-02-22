@@ -174,5 +174,5 @@ $ aws s3 mb s3://hyou-loki.apps.ocp4.sandbox2710.opentlc.com
 
     ![06_new_logs_options](https://github.com/justone0127/LokiStack-on-OpenShift-4.11/blob/main/images/07_logging.png)
   
-  - 새로 반영된 로깅 화면을 확인해 보면 다음과 같이 json 형태의 로그와 histogram을 확인 할 수 있습니다.
+  - 새로 반영된 로깅 화면을 확인해 보면 다음과 같이 **JSON** 형태의 로그와 **histogram**을 확인 할 수 있습니다.
     ![10_logging_histogram03](https://github.com/justone0127/LokiStack-on-OpenShift-4.11/blob/main/images/10_logging_histogram03.png)
