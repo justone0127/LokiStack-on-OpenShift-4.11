@@ -61,7 +61,7 @@ OpenShift Container Platform 웹 콘솔을 사용하여 LokiStack을 배포할 �
 로그 저장소로 사용하기 위해 AWS 환경에서 S3 버킷을 생성합니다.
 
 ```bash
-$ aws s3 mb s3://hyou-loki.apps.ocp4.sandbox2710.opentlc.com
+$ aws s3 mb s3://{BUCKET_NAME}
 ```
 
 ### 2.2 LokiOperator Install
